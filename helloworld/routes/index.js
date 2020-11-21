@@ -10,6 +10,9 @@ router.get('/string', async (ctx, next) => {
   ctx.body = 'koa2 string'
 })
 
+router.get('josn',async (ctx,next) =>{
+  ctx.body = 'json';
+})
 router.get('/json', async (ctx, next) => {
   ctx.body = {
     title: 'koa2 json'
